@@ -68,3 +68,81 @@ body {
   display: block;
   object-fit: cover;
 }
+
+.label {
+  font-size: 14px;
+  color: #b0b0b0;
+  display: block;
+  margin-bottom: 8px;
+}
+input {
+  width: 100%;
+  max-width: 360px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e2f42;
+}
+input::placeholder {
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.login-form {
+  width: 360px;
+  height: 40px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+.widget {
+  text-align: center;
+  justify-content: center;
+}
+.change-color {
+  background: #4e75ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
